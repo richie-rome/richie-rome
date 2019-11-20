@@ -1,0 +1,51 @@
+/* Basic styling */
+html, * {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "Helvetica", "Arial", sans-serif;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+h1 {
+	padding: 20px;
+}
+header {
+	background-color: #11999E;
+}
+nav {
+	padding: 20px;
+}
+.hero {
+	background-color: #FFB6B9;
+	padding: 50px 0;
+}
+.content {
+	background-color: #E4F9F5;
+	padding: 150px 0;
+	color: #3F4847;
+}
+.col-1 {
+	background-color: #3F4847;
+	padding: 30px 0;
+}
+.col-2 {
+	background-color: #627271;
+	padding: 30px 0;
+}
+.col-3 {
+	background-color: #9CA7A6;
+	padding: 30px 0;
+}
+.sign-up {
+	background-color: #61C0BF;
+	padding: 60px;
+}

@@ -1,0 +1,55 @@
+/* layout code goes here */
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	max-width: 300px;
+	margin: 0 auto;
+}
+@media only screen and (max-width:600px){
+    .hero {
+		background-color: blue;
+		flex: 1 0 100%;
+	}
+    .col-2{
+    	display: none;
+    }
+}
+@media only screen and (min-width: 1200px) {
+
+	header {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+		order: 1;
+	}
+	nav {
+		margin:0;
+		width: 50%;
+	}
+	.hero {
+		background-color: red;
+		flex: 1 0 100%;
+	}
+	.columns {
+		display: flex;
+		order: 2;
+	}
+	.content {
+		order: 3;
+	}
+	.col-1,
+	.col-2,
+	.col-3 {
+		flex: 1;
+	}
+	.wrapper {
+		display: flex;
+		flex-direction: column;
+	}
+	.sign-up {
+		order: 4;
+	}
+
+}
